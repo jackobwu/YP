@@ -6,12 +6,12 @@ class Mail {
                 $mail->isSMTP();
                 $mail->SMTPAuth = true;
                 $mail->SMTPSecure = 'ssl';
-                $mail->Host = 'smtp.126.com';
+                $mail->Host = '';
                 $mail->Port = '465';
                 $mail->isHTML();
-                $mail->Username = 'jackob_xm@126.com';
-                $mail->Password = 'jackob314151';
-                $mail->SetFrom('jackob_xm@126.com');
+                $mail->Username = '';
+                $mail->Password = 'j';
+                $mail->SetFrom('');
                 $mail->Subject = $subject;
                 $mail->Body = $body;
                 $mail->AddAddress($address);
