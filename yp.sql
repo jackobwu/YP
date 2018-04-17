@@ -6,7 +6,7 @@
 # http://code.google.com/p/sequel-pro/
 #
 # Host: localhost (MySQL 5.6.14)
-# Database: SocialNetwork
+# Database: YP
 # Generation Time: 2017-02-21 02:05:28 +0000
 # ************************************************************
 
